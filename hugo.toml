@@ -1,0 +1,13 @@
+baseURL = "https://giuliapl.github.io/"
+languageCode = "en-en"
+title = "giuliapl personal page & blog"
+theme = "PaperMod"
+[params]
+  author = "Giulia"
+[[menus.main]]
+name = "Blog"
+url = "/posts/"
+weight = 1
+
+[caches.images]
+dir = ":cacheDir/images"

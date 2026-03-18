@@ -1,0 +1,140 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 1rem;
+}
+
+.home-section {
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1.2rem;
+}
+
+.section-content {
+    color: var(--content);
+    line-height: 1.75;
+}
+
+.section-content p {
+    margin-bottom: 0.8rem;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.2rem;
+}
+
+.project-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.4rem;
+}
+
+.project-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.project-card h3 a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.project-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-bottom: 0.8rem;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tag {
+    font-size: 0.75rem;
+    background: var(--code-bg);
+    color: var(--secondary);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+}
+
+/* Readings */
+.reading-item {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.reading-item:last-child {
+    border-bottom: none;
+}
+
+.reading-main {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.reading-title {
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+    cursor: default;
+}
+
+.reading-title:hover {
+    text-decoration: none;
+}
+
+.reading-author {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.reading-desc {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+/* Blog CTA */
+.blog-cta {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 2rem;
+}
+
+.blog-btn {
+    display: inline-block;
+    padding: 0.65rem 1.6rem;
+    background: var(--primary);
+    color: var(--theme);
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.blog-btn:hover {
+    opacity: 0.85;
+    text-decoration: none;
+}
