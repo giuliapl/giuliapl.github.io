@@ -8,7 +8,7 @@ series = ["C internals"]
 [cover]
 hidden = true
 +++
-This is part one of two. Part two covers the C memory model and stack frames.
+This is part one of two. [Part two](/posts/c-memory-model-and-stack/) covers the C memory model and stack frames.
 
 ---
 
